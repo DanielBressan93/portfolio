@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --bg-color-gray-dark: #141414;
+  --bg-color-black: #000000;
+  --nav-text-color: #f0f0f0;
+  --title-text-color: #fafafa;
+  --content-text-color: #f0f0f0;
+  --color-hover: #bf55ec;
+  --button-bg-color: ;
+  --button-text-color: #111111;
+}
+
+body {
+  font-family: 'Fira Sans', sans-serif;
+  color: white;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
