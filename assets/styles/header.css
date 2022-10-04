@@ -9,6 +9,7 @@ li, a {
   width: 100%;
   height: 8rem;
   padding: 1rem 1.5rem;
+  border-bottom: 1px solid #090909;
 }
 
 .navbar {
@@ -38,10 +39,6 @@ li, a {
 
 }
 
-.logo p:hover {
-  color: var(--color-hover);
-}
-
 .menu {
   display: flex;
   gap: 2rem;
@@ -58,8 +55,8 @@ li, a {
   transition: all 0.3s ease-out;
 }
 
-.menu-item a:hover {
-  color: var(--color-hover);
+.menu a:hover {
+  transform: scale(1.1);
 }
 
 .btn-menu {

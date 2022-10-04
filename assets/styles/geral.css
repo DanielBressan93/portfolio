@@ -10,9 +10,9 @@
   --bg-color-black: #000000;
   --nav-text-color: #f0f0f0;
   --title-text-color: #fafafa;
-  --content-text-color: #f0f0f0;
+  --content-text-color: #a2a2a2;
   --color-hover: #bf55ec;
-  --button-bg-color: ;
+  --button-bg-color: #bf55ec;
   --button-text-color: #111111;
 }
 
@@ -30,4 +30,28 @@ img {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.button {
+  display: block;
+  padding: 2rem 8rem;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: .2rem;
+  font-size: 1.8rem;
+  background-color: var(--button-bg-color);
+  color: var(--button-text-color);
+  transition: all 0.3s ease-out;
+}
+
+.button:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 700px) {
+  .button {
+    padding: 1.5rem 6rem;
+    
+  }
 }
