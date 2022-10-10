@@ -1,0 +1,65 @@
+.contato-bg {
+  background-color: var(--bg-color-gray-dark);
+  padding: 12rem 4rem 12rem 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-form {
+  background-color: var(--bg-color-black);
+  padding: 5rem 10rem;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.70) 1.95px 1.95px 2.6px;
+}
+
+form .button {
+  width: 100%;
+  margin-top: 4rem;
+  cursor: pointer;
+  border: none;
+}
+
+input {
+  display: block;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  background-color: var(--bg-color-gray-dark);
+  border: 1px solid #222222;
+  border-radius: 4px;
+  font-size: 1.6rem;
+  color: #fafafa;
+  font-weight: bold;
+}
+
+input::placeholder, textarea::placeholder {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #fafafa;
+}
+
+textarea {
+  width: 100%;
+  background-color: var(--bg-color-gray-dark);
+  padding: 2rem;
+  resize: vertical;
+  margin-top: 2rem;
+  outline: none;
+  font-size: 1.6rem;
+  color: #fafafa;
+  font-weight: bold;
+  border: 1px solid #222222;
+  border-radius: 4px;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+@media (max-width: 560px) {
+  .subtitle {
+    font-size: 3.2rem;
+  }
+
+  .container-form {
+  padding: 5rem 5rem;
+  }
+}

@@ -4,7 +4,7 @@
 }
 
 
-.sobre-bg h2::after {
+.subtitle::after {
   content: '';
   display: block;
   width: 80px;
@@ -111,7 +111,7 @@
     margin-bottom: 4rem;
   }
   
-  .sobre-bg h2 {
+  .sobre-bg .subtitle {
     font-size: 3.2rem;
   }
 
