@@ -16,6 +16,10 @@
   --button-text-color: #fafafa;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Fira Sans', sans-serif;
   color: white;
