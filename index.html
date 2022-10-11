@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfólio de desenvolvedor Front End, apresentando sobre e mostrando os projetos."
+    />
     <title>Daniel Bressan | Desenvolvedor Front End</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -33,7 +37,6 @@
       sizes="16x16"
       href="./assets/img/favicon-16x16.png"
     />
-    <link rel="manifest" href="/site.webmanifest" />
     <script defer type="module" src="script.js"></script>
   </head>
   <body>
@@ -54,9 +57,9 @@
           <span class="hamburguer"></span>
         </button>
         <ul class="menu" role="menu">
-          <li role="button"><a href="#sobre">sobre</a></li>
-          <li role="button"><a href="#projetos">projetos</a></li>
-          <li role="button"><a href="#contato">contato</a></li>
+          <li class="link" role="menuitem"><a href="#sobre">sobre</a></li>
+          <li class="link" role="menuitem"><a href="#projetos">projetos</a></li>
+          <li class="link" role="menuitem"><a href="#contato">contato</a></li>
         </ul>
       </nav>
     </header>
@@ -226,15 +229,22 @@
         </div>
         <div class="footer-coluna">
           <h2>Social</h2>
-          <a href="https://www.instagram.com/danielbressan93" target="_blank"
+          <a
+            href="https://www.instagram.com/danielbressan93"
+            target="_blank"
+            aria-label="Instagram"
             ><i class="fa-brands fa-instagram"></i
           ></a>
           <a
             href="https://www.linkedin.com/in/daniel-bressan93/"
             target="_blank"
+            aria-label="Linkedin"
             ><i class="fa-brands fa-linkedin-in"></i
           ></a>
-          <a href="https://github.com/DanielBressan93" target="_blank"
+          <a
+            href="https://github.com/DanielBressan93"
+            target="_blank"
+            aria-label="Github"
             ><i class="fa-brands fa-github"></i
           ></a>
         </div>
