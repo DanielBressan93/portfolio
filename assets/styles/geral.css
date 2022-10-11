@@ -74,3 +74,11 @@ img {
     padding: 1.5rem 6rem;
   }
 }
+
+
+@media (max-width: 560px) {
+  .button {
+    padding: 1rem 4rem;
+    font-size: 1.4rem;
+  }
+}
