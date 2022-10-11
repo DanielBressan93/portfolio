@@ -10,9 +10,8 @@ li, a {
   height: 8rem;
   padding: 1rem 1.5rem;
   border-bottom: 1px solid #090909;
-  /* position: fixed;
-  top: 0;
-  left: 0; */
+  position: fixed;
+  z-index: 3000;
 }
 
 .navbar {
@@ -59,7 +58,7 @@ li, a {
 }
 
 .menu a:hover {
-  transform: scale(1.1);
+  color: var(--color-hover);
 }
 
 .btn-menu {
@@ -100,7 +99,7 @@ li, a {
   }
 
   .navbar.ativo .menu {
-    height: calc(100vh - 8rem);
+    height: 25vh;
     visibility: visible;
   }
 
