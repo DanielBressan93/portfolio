@@ -99,7 +99,7 @@ li, a {
   }
 
   .navbar.ativo .menu {
-    height: 40vh;
+    height: 100vh;
     visibility: visible;
   }
 
